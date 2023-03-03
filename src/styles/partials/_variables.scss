@@ -1,0 +1,35 @@
+$mobile-min: 767px;
+$tablet-min: 768px;
+$desktop-min: 1280px;
+
+$margin-mobile:0 1.6rem;
+$margin-tablet:0 3.6rem;
+$margin-desktop: 0 auto;
+
+$fontMobile-h1:2.8rem;
+$fontMobile-h2:2rem;
+$fontMobile-h3:1.3rem;
+$fontMobile-h4:1.1rem;
+$fontMobile-bodyL:1.5rem;
+$fontMobile-bodyM:1.3rem;
+$fontMobile-bodyS:1.1rem;
+
+$fontTablet-h1:3.2rem;
+$fontTablet-h2:2.4rem;
+$fontTablet-h3:1.4rem;
+$fontTablet-h4:1.2rem;
+$fontTablet-bodyL:1.6rem;
+$fontTablet-bodyM:1.4rem;
+$fontTablet-bodyS:1.2rem;
+
+$box: 0 0 20px
+  rgba(
+    $color: black,
+    $alpha: 20%,
+  );
+
+$mobile-pad: 1.6rem;
+
+// $primary:#49c5b6;
+$primary:#41b3a3;
+$secondary: #DF6C4F;

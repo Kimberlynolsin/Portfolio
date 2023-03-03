@@ -1,0 +1,13 @@
+@import "./partials/typography";
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/resets.scss";
+
+//components
+@import '../components/Header/Header.scss';
+
+//pages
+@import '../pages/HomePage/HomePage.scss';
+@import '../pages/AboutPage/AboutPage.scss';
+@import '../pages/ContactPage/ContactPage.scss';
+@import '../pages/ProjectPage/ProjectPage.scss';
