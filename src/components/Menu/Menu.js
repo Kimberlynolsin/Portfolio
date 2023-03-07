@@ -1,25 +1,48 @@
 import { stack as Menu } from "react-burger-menu";
-import { Link } from "react-router-dom";
-import hamburger from '../../assets/icons/hamburger.png'
+import { Link } from "react-scroll";
+import hamburger from "../../assets/icons/hamburger.png";
 
 const Hamburger = () => {
-  const handleShowSettings = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <>
-      <Menu right  customBurgerIcon={ <img src={hamburger} className='menu-icon' /> }>
-        <Link id="home" className="menu-item" href="/">
+      <Menu
+        right
+        customBurgerIcon={<img src={hamburger} className="menu-icon" />}
+      >
+        <Link
+          to="/"
+          className="menu-item"
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           HOME
         </Link>
-        <Link id="about" className="menu-item" href="/about">
+        <Link
+          to="about"
+          className="menu-item"
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           ABOUT ME
         </Link>
-        <Link id="contact" className="menu-item" href="/contact">
+        <Link
+          to="projects"
+          className="menu-item"
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           PROJECTS
         </Link>
-        <Link onClick={handleShowSettings} className="menu-item--small" href="">
+        <Link
+          to="contact"
+          className="menu-item"
+          smooth={true}
+          duration={500}
+          offset={-70}
+        >
           CONTACT ME
         </Link>
       </Menu>

@@ -4,7 +4,10 @@
   align-items: center;
   font-size: $fontMobile-body;
   position: fixed;
+  width: 100%;
   // z-index: 1;
+  background-color: $primary ;
+  $margin:$margin-mobile;
   &-container__logo {
     width: 6rem;
     margin-top: 1rem;
@@ -28,10 +31,6 @@
         text-decoration-color: $secondary;
       }
     }
-  }
-
-  .bm-burger-button{
-    color: white;
   }
 }
 
