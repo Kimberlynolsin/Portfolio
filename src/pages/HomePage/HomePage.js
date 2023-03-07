@@ -6,6 +6,7 @@ const HomePage = () => {
     <>
       <Header />
       <Intro />
+      <hr></hr>
     </>
   );
 };

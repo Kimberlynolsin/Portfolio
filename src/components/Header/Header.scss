@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: $fontMobile-body;
   &-container__logo {
     width: 6rem;
     margin-top: 1rem;
@@ -23,8 +24,13 @@
         text-decoration: underline;
         text-underline-offset: 1rem;
         text-decoration-color: $secondary;
-        font-weight: 600;
       }
     }
   }
+
+  .bm-burger-button{
+    color: white;
+  }
 }
+
+
