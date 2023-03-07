@@ -1,10 +1,13 @@
-const HomePage= ()=>{
-    return <>
-    <section className="home">
-        <h1 className="home__title">
-            HELLO, I'M <span className="home__highlight">KIMMY</span> A FULL-STACK ENGINEER THAT WRITES CLEAN CODE AND LOVES VIDEO GAMES
-        </h1>
-    </section></>
-}
+import Header from "../../components/Header/Header";
+import Intro from "../../components/Intro/Intro";
 
-export default HomePage
+const HomePage = () => {
+  return (
+    <>
+      <Header />
+      <Intro />
+    </>
+  );
+};
+
+export default HomePage;
