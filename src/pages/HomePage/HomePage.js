@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import Intro from "../../components/Intro/Intro";
+import About from "../AboutPage/AboutPage";
 
 const HomePage = () => {
   return (
@@ -7,6 +8,7 @@ const HomePage = () => {
       <Header />
       <Intro />
       <hr></hr>
+      <About/>
     </>
   );
 };

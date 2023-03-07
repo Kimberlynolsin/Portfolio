@@ -3,6 +3,8 @@
   justify-content: space-between;
   align-items: center;
   font-size: $fontMobile-body;
+  position: fixed;
+  // z-index: 1;
   &-container__logo {
     width: 6rem;
     margin-top: 1rem;

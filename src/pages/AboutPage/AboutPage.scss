@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+//   &-container {
+//     background-color: white;
+//     border-radius: 40rem;
+//     display: flex;
+//     justify-content: center;
+//     width: 17rem;
+//   }
+  &-container__img {
+    width: 17rem;
+    border-radius: 40rem;
+  }
+}
