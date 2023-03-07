@@ -1,21 +1,26 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+
+  &__title {
+    font-size: $fontMobile-h1;
+  }
   &__wrapper {
     display: flex;
     flex-direction: column;
   }
-//   &-container {
-//     background-color: white;
-//     border-radius: 40rem;
-//     display: flex;
-//     justify-content: center;
-//     width: 17rem;
-//   }
-  &-container__img {
-    width: 17rem;
-    border-radius: 40rem;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__resume {
+    text-decoration: none;
+    color: $secondary;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+    font-size: $fontMobile-body;
   }
 }

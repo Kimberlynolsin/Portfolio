@@ -10,7 +10,7 @@ const Hamburger = () => {
         customBurgerIcon={<img src={hamburger} className="menu-icon" />}
       >
         <Link
-          to="/"
+          to="home"
           className="menu-item"
           smooth={true}
           duration={500}

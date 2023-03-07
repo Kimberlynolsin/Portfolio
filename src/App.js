@@ -6,7 +6,19 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 import ProjectPage from "./pages/ProjectPage/ProjectPage";
 
+// import { useEffect } from "react";
+// import { useLocation } from "react-router-dom";
+// import { animateScroll as scroll } from "react-scroll";
+
 function App() {
+  // const location = useLocation();
+
+  // // Scroll to top on page change
+  // useEffect(() => {
+  //   scroll.scrollToTop();
+  // }, [location]);
+
+
   return (
     <Router>
       <Routes>
