@@ -13,7 +13,8 @@ p {
 }
 body {
   font-family: "Dosis", "Franklin Gothic Medium";
-  margin: $margin-mobile;
+  // padding: $margin-mobile;
+  margin: 0;
   background-color: $primary;
   color: white;
 }

@@ -8,7 +8,7 @@ const HomePage = () => {
     <>
       <Header />
       <Intro id="home" />
-      <hr></hr>
+      {/* <hr></hr> */}
       <About id="about" />
     </>
   );

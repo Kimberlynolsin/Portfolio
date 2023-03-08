@@ -3,6 +3,9 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  background-color: $secondary;
+  padding: $margin-mobile;
+
 
   &__title {
     font-size: $fontMobile-h1;
@@ -19,8 +22,31 @@
 
   &__resume {
     text-decoration: none;
-    color: $secondary;
+    text-underline-offset: 1rem;
+    color: white;
+    text-decoration-color: white;
     text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
     font-size: $fontMobile-body;
+
+    &:hover {
+      text-decoration: underline;
+      text-decoration-color: $primary;
+      text-underline-offset: 1rem;
+    }
+  }
+
+  &__box{
+    margin: 1rem;
+  }
+  &__skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  &__icons{
+    width: 5rem;
+    height: 5rem;
   }
 }

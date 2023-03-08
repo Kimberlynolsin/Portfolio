@@ -7,6 +7,8 @@
   width: 100%;
   // z-index: 1;
   background-color: $primary ;
+  padding: $margin-mobile;
+
   $margin:$margin-mobile;
   &-container__logo {
     width: 6rem;
