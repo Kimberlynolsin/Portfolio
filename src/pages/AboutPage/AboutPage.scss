@@ -23,15 +23,17 @@
   &__resume {
     text-decoration: none;
     text-underline-offset: 1rem;
-    color: white;
+    color: $primary;
+    font-weight: bold;
     text-decoration-color: white;
-    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+    // text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
     font-size: $fontMobile-body;
 
     &:hover {
       text-decoration: underline;
       text-decoration-color: $primary;
       text-underline-offset: 1rem;
+      color: white;
     }
   }
 
@@ -43,6 +45,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2rem;
+    // background-color: white rgba($color: white, $alpha: 1);
+    
   }
 
   &__icons{
